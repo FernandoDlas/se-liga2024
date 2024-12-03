@@ -15,3 +15,19 @@
       <input type="number" id="nota1 class="input" required>
     
       <label for="nota2" class="label">nota do 2 trimestre:</label>
+      <input type="number" id="nota2" class="input" required>
+
+      <label for="nota3" class="label">nota do 3 Trimestre:</label>
+      <input type="number" id="nota3" class="input" required>
+
+      <button type="submit" id="calcular" class="botao">Calcular</button>
+    </form>
+
+    <div id="resultado" class="resultado">
+     <!--Resultado será exibido aqui-->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
