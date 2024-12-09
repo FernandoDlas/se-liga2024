@@ -48,4 +48,29 @@ h1{
     padding: 10px;
     background-color:blueviolet;
     color:white;
+    border:none;
+    border-radius:4px;
+    font-size:16px;
+    cursor:pointer;
+    transition:background-color 0.3s ease;
 }
+.botao:hover{
+    background-color:black
+}
+
+.resultado{
+    text-align:center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.aprovado{
+    color:green;
+}
+
+.recuperacao{
+    color: chocolate;
+}
+
